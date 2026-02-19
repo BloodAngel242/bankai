@@ -19,7 +19,7 @@ const config = {
   
   // Médias pour le menu
   menuMedia: {
-    image: 'https://files.catbox.moe/8ifxde.jpg',
+    image: 'https://i.postimg.cc/c48Xn29z/20260217-153837.jpg',
     audio: 'https://files.catbox.moe/f1a6hn.mp3',  // Nouveau lien audio
     newsletter: '120363408210681586@newsletter',
     newsletterName: '🎃𝗞𝗨𝗥𝗔𝗠𝗔 𝗠𝗗🎃',
