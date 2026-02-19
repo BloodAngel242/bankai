@@ -1,62 +1,73 @@
 <p align="center">
-  <img src="https://i.postimg.cc/c48Xn29z/20260217-153837.jpg" width="100%" alt="KURAMA MD V2 Banner"/>
+  <img src="https://i.postimg.cc/c48Xn29z/20260217-153837.jpg" width="100%" />
 </p>
 
-<h1 align="center">🦊 KURAMA MD V2</h1>
+<h1 align="center">
+  🦊 KURAMA MD V2
+</h1>
+
+<h3 align="center">
+  ⚡ Moteur WhatsApp Multi-Device ⚡
+</h3>
 
 <p align="center">
-  <b>WhatsApp Multi-Device Bot • Fast • Stable • Powerful</b>
+  <b>Développé par</b>
 </p>
+
+<h2 align="center">
+  <span style="color:#ff1e1e;">🩸 BLOOD ANGEL</span>  
+  <br>
+  <sub>Dev Alpha</sub>
+</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-2.0-red?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Node.js-Required-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Baileys-MD-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/MOTEUR-Node.js-111111?style=for-the-badge&logo=node.js">
+  <img src="https://img.shields.io/badge/LIBRAIRIE-Baileys-8b0000?style=for-the-badge">
+  <img src="https://img.shields.io/badge/VERSION-2.0-ff0000?style=for-the-badge">
+  <img src="https://img.shields.io/badge/STATUT-STABLE-black?style=for-the-badge">
 </p>
 
 ---
 
-## 🔥 Présentation
+## 🧬 PRÉSENTATION DU PROJET
 
-**KURAMA MD V2** est un bot WhatsApp Multi-Device développé en **Node.js** utilisant la librairie **Baileys**.
+**KURAMA MD V2** n’est pas un simple bot WhatsApp.  
+C’est une architecture optimisée pour la performance, la stabilité et le contrôle avancé des interactions.
 
-Il est optimisé pour la rapidité, la stabilité et la gestion avancée des groupes et messages privés.
-
----
-
-## ⚡ Fonctionnalités
-
-- 🎵 Téléchargement Audio / Vidéo
-- 👑 Système Owner sécurisé
-- 💬 Support Groupes & Privé
-- 🚫 Anti-Link
-- 👋 Message de bienvenue (Welcome)
-- 📜 Menu interactif
-- 🔄 Multi-Device Support
-- 🛡️ Gestion avancée des erreurs
+Conçu pour fonctionner en **Multi-Device**, il garantit rapidité, sécurité et évolutivité.
 
 ---
 
-## 📦 Installation
+## ⚔️ FONCTIONNALITÉS PRINCIPALES
 
-### 1️⃣ Cloner le projet
+```
+✔ Système Owner avancé et sécurisé
+✔ Gestion des commandes (Groupes & Privé)
+✔ Téléchargement Audio / Vidéo
+✔ Message de bienvenue automatique
+✔ Protection Anti-Link
+✔ Système de gestion d’erreurs
+✔ Optimisation des performances
+```
+
+---
+
+## ⚙️ INSTALLATION
+
+### 1 — Cloner le dépôt
 
 ```bash
 git clone https://github.com/VOTRE-USERNAME/KURAMA-MD-V2.git
 cd KURAMA-MD-V2
 ```
 
----
-
-### 2️⃣ Installer les dépendances
+### 2 — Installer les dépendances
 
 ```bash
 npm install
 ```
 
----
-
-### 3️⃣ Configuration
+### 3 — Configuration
 
 Modifiez le fichier :
 
@@ -72,9 +83,7 @@ owner: ["243XXXXXXXXX"]
 
 > ⚠️ **NB : Veuillez remplacer les numéros qui se trouvent dans `config.js` par le vôtre.**
 
----
-
-### 4️⃣ Lancer le bot
+### 4 — Lancer le bot
 
 ```bash
 npm start
@@ -82,19 +91,19 @@ npm start
 
 ---
 
-## 🌍 Déploiement
+## 🛡️ DÉPLOIEMENT
 
 Compatible avec :
 
-- 🚀 Railway  
-- 🌐 Render  
-- 🖥️ VPS  
-- ☁️ Heroku
-- 🤖 Panel
+✔ VPS  
+✔ Railway  
+✔ Render  
+✔ Environnements Cloud  
+√ Panel
 
 ---
 
-## 🛠️ Technologies utilisées
+## 🧠 STACK TECHNIQUE
 
 - Node.js  
 - Baileys  
@@ -103,8 +112,16 @@ Compatible avec :
 
 ---
 
-## 👑 Développeur
+## 🩸 AUTEUR
 
+<h2 align="center">BLOOD ANGEL</h2>
+<p align="center"><i>Dev Alpha • Architecte Systèmes • Automatisation WhatsApp</i></p>
+
+---
+
+<p align="center">
+  ⚡ KURAMA MD V2 — Conçu pour le contrôle. Créé pour la puissance.
+</p>
 > 🩸 **Bot développé par Blood Angel, Dev Alpha**
 
 Projet : **KURAMA MD V2**
