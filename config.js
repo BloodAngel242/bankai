@@ -1,30 +1,42 @@
-require('dotenv').config();
-
-global.APIs = {
-    xteam: 'https://api.xteam.xyz',
-    dzx: 'https://api.dhamzxploit.my.id',
-    lol: 'https://api.lolhuman.xyz',
-    violetics: 'https://violetics.pw',
-    neoxr: 'https://api.neoxr.my.id',
-    zenzapis: 'https://zenzapis.xyz',
-    akuari: 'https://api.akuari.my.id',
-    akuari2: 'https://apimu.my.id',
-    nrtm: 'https://fg-nrtm.ddns.net',
-    bg: 'http://bochil.ddns.net',
-    fgmods: 'https://api-fgmods.ddns.net'
+// Configuration du bot
+const config = {
+  // Préfixes des commandes
+  prefixes: ['!', '.', '√'],
+  
+  // Propriétaire du bot (numéros avec indicatif, sans +)
+  OWNER_NUMBER: '242067875113',
+  
+  // Liste des admins (numéros autorisés à utiliser certaines commandes)
+  adminNumbers: [
+    '242067875113',
+    '242066191337'
+  ],
+  
+  // Paramètres généraux
+  botName: 'KURAMA MD',
+  ownerName: 'Blood Angel',
+  version: '2.0.0',
+  
+  // Médias pour le menu
+  menuMedia: {
+    image: 'https://files.catbox.moe/8ifxde.jpg',
+    audio: 'https://files.catbox.moe/f1a6hn.mp3',  // Nouveau lien audio
+    newsletter: '120363408210681586@newsletter',
+    newsletterName: '🎃𝗞𝗨𝗥𝗔𝗠𝗔 𝗠𝗗🎃',
+    sourceUrl: 'https://whatsapp.com/channel/0029VbC4M7pCHDypTnI3ys2b',
+    reaction: '🤖'
+  },
+  
+  // Token pour l'API Telegram
+  telegramBotToken: '7801479976:AAGuPL0a7kXXBYz6XUSR_ll2SR5V_W6oHl4',
+  
+  // Messages par défaut
+  messages: {
+    onlyOwner: '❌ Cette commande est réservée au propriétaire.',
+    onlyAdmin: '❌ Cette commande est réservée aux administrateurs.',
+    onlyGroup: '❌ Cette commande ne peut être utilisée que dans les groupes.',
+    error: '❌ Une erreur est survenue.'
+  }
 };
 
-global.APIKeys = {
-    'https://api.xteam.xyz': 'd90a9e986e18778b',
-    'https://api.lolhuman.xyz': '85faf717d0545d14074659ad',
-    'https://api.neoxr.my.id': 'yourkey',
-    'https://violetics.pw': 'beta',
-    'https://zenzapis.xyz': 'yourkey',
-    'https://api-fgmods.ddns.net': 'fg-dylux'
-};
-
-module.exports = {
-    WARN_COUNT: 3,
-    APIs: global.APIs,
-    APIKeys: global.APIKeys
-};
+export default config;
