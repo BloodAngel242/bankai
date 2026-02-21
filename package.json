@@ -1,5 +1,5 @@
 {
-  "name": "whatsapp-bot",
+  "name": "Kurama-MD_V2",
   "version": "1.0.0",
   "description": "Bot WhatsApp avec Baileys",
   "main": "index.js",
@@ -11,6 +11,7 @@
   "dependencies": {
     "@hapi/boom": "^10.0.1",
     "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "adm-zip": "^0.5.16",
     "axios": "^1.7.9",
     "file-type": "^19.0.0",
     "form-data": "^4.0.1",
